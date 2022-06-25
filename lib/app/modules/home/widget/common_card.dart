@@ -14,8 +14,8 @@ class CommonCard extends StatelessWidget {
       child: GestureDetector(
         onTap: onTap,
         child: Container(
-          height: Get.size.width * 0.02,
-          width: Get.size.width * 0.12,
+          height: Get.size.width * 0.06,
+          width: Get.size.width * 0.14,
           decoration: BoxDecoration(
             boxShadow: const [
               BoxShadow(

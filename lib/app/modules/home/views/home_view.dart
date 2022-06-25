@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
 import 'package:smuct_library_management_system/app/data/widgets/drawer_item.dart';
-import 'package:smuct_library_management_system/app/data/widgets/s_scaffold.dart';
+import 'package:smuct_library_management_system/app/data/widgets/sscaffold/s_scaffold.dart';
 import 'package:smuct_library_management_system/app/modules/home/widget/common_card.dart';
 import 'package:syncfusion_flutter_charts/charts.dart';
 import 'package:syncfusion_flutter_charts/sparkcharts.dart';
