@@ -9,7 +9,7 @@ void main() {
     GetMaterialApp(
       // theme: ThemeData(useMaterial3: true),
       title: "Application",
-      initialRoute: AppPages.INITIAL,
+      initialRoute: AppPages.initial,
       getPages: AppPages.routes,
     ),
   );
