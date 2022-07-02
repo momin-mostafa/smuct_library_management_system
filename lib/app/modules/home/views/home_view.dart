@@ -34,15 +34,15 @@ class HomeView extends GetView<HomeController> {
                 children: [
                   CommonCard(
                     cardTitle: 'Inventory',
-                    onTap: () {},
+                    onTap: () => Get.toNamed('/inventory-screen'),
                   ),
                   CommonCard(
                     cardTitle: 'Circulation',
-                    onTap: () {},
+                    onTap: () => Get.toNamed('/circulation'),
                   ),
                   CommonCard(
                     cardTitle: 'Borrowers Management',
-                    onTap: () {},
+                    onTap: () => Get.toNamed('/borrowers-management'),
                   ),
                 ],
               ),

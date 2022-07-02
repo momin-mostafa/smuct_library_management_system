@@ -20,7 +20,14 @@ class SAppBar extends StatelessWidget {
         boxShadow: commonShadow,
       ),
       child: Row(
-        children: appBarItem,
+        children: <Widget>[
+              FloatingActionButton(
+                  onPressed: (() => Get.back()),
+                  child: const Icon(
+                    Icons.arrow_back,
+                  ))
+            ] +
+            appBarItem,
       ),
     );
   }
