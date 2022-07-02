@@ -11,7 +11,8 @@ class SDrawer extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SizedBox(
+    return Container(
+      padding: const EdgeInsets.all(8.0),
       height: Get.size.height * .95,
       width: Get.size.width * .15,
       child: Column(

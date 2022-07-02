@@ -12,22 +12,25 @@ class SAppBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      width: Get.size.width * .77,
-      height: Get.size.width * .04,
-      decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(25),
-        boxShadow: commonShadow,
-      ),
-      child: Row(
-        children: <Widget>[
-              FloatingActionButton(
-                  onPressed: (() => Get.back()),
-                  child: const Icon(
-                    Icons.arrow_back,
-                  ))
-            ] +
-            appBarItem,
+    return Padding(
+      padding: const EdgeInsets.all(20),
+      child: Container(
+        width: Get.size.width * .77,
+        height: Get.size.width * .04,
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(25),
+          boxShadow: commonShadow,
+        ),
+        child: Row(
+          children: <Widget>[
+                IconButton(
+                    onPressed: (() => Get.back()),
+                    icon: const Icon(
+                      Icons.arrow_back,
+                    ))
+              ] +
+              appBarItem,
+        ),
       ),
     );
   }
