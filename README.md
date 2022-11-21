@@ -1,16 +1,15 @@
 # smuct_library_management_system
 
-A new Flutter project.
+A prototype for smuct_library_management_system UI using [flutter](https://flutter.dev/) and [getx](https://pub.dev/packages/get) for routing testing purpose. Intentioned for mac,Linux,windows. 
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## How to run
+-> for getting pub repos
+```
+flutter pub get
+```
+-> for building for specific platform
+```
+flutter run -d windows // for windows users
+flutter run -d linux // for linux users
+flutter run -d mac // for mac users 
+```
